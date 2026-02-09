@@ -1,0 +1,48 @@
+Quick Reference: Time & Space Complexity Shortcuts
+
+Sorting Algorithms
+Bubble, Selection, Insertion: O(n²) - "BSI squared"
+Merge, Heap, Quick (avg): O(n log n) - "MHQ log"
+Quick worst: O(n²) - "Q can square"
+Counting, Radix, Bucket: O(n+k) or O(n) - "CRB linear"
+
+Search Operations
+Linear Search: O(n) - "L = Linear"
+Binary Search: O(log n) - "B = Log"
+Hash Table: O(1) avg - "H = 1"
+
+Tree Operations
+BST balanced: O(log n) - "Balanced = Log"
+BST worst: O(n) - "Skewed = Linear"
+Heap insert/delete: O(log n) - "Heap = Log"
+Trie insert/search: O(m) where m=length - "Trie = Word length"
+
+Graph Algorithms
+BFS/DFS: O(V+E) - "Traversal = V+E"
+Dijkstra: O((V+E) log V) - "Dijk = Log"
+Bellman-Ford: O(VE) - "Bell = VE"
+Floyd-Warshall: O(V³) - "Floyd = Cubed"
+
+Dynamic Programming
+Fibonacci (DP): O(n) time, O(n) space - "DP = Linear"
+0/1 Knapsack: O(nW) - "Knapsack = n×Weight"
+LCS: O(mn) - "LCS = m×n"
+
+Data Structures Access
+Array: O(1) access - "A[i] = 1"
+Linked List: O(n) access - "LL = Linear"
+Stack/Queue: O(1) push/pop - "SQ = 1"
+Priority Queue: O(log n) - "PQ = Log"
+
+Memory Trick: "SILQ"
+Space = Input size → O(1)
+In-place sorting → O(1)
+Linked structures → O(n)
+Quick/Merge sort → O(n) or O(log n)
+
+Master Mnemonic: "LLQS-C"
+Linear = O(n)
+Logarithmic = O(log n)
+Quadratic = O(n²)
+Super = O(n log n)
+Constant = O(1)
