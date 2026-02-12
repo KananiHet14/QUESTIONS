@@ -122,7 +122,96 @@ public class AllPatterns {
             //     System.out.println();
             // }
 
+
             
+            // butter fly pattern
+            // int n=5;
+
+            // for(int i=0; i<=n; i++) {
+            //     // first half
+            //     for(int j=0; j<=i; j++) {
+            //         System.out.print("*");
+            //     }
+            //     // spaces
+            //     for(int j=1; j<=2*(n-i); j++) {
+            //         System.out.print(" ");
+            //     }
+            //     // secpond half
+            //     for(int j=0; j<=i; j++) {
+            //         System.out.print("*");
+            //     }
+            //     System.out.println();
+            // }
+            // for(int i=n; i>=0; i--) {
+            //     // first halff
+            //     for(int j=0; j<=i; j++) {
+            //         System.out.print("*");
+            //     }
+            //     // spaces
+            //     for(int j=1; j<=2*(n-i); j++) {
+            //         System.out.print(" ");
+            //     }
+            //     // second half
+            //     for(int j=0; j<=i; j++) {
+            //         System.out.print("*");
+            //     }
+            //     System.out.println();
+            // }
+
+
+
+            // hollow butter fly
+            // int n=5;
+
+            // for(int i=0; i<=n; i++) {
+            //     // first half
+            //     for(int j=1; j<=i; j++) {
+            //         if(j==1 || j==i) {
+            //             System.out.print("*");
+            //         } else {
+            //             System.out.print(" ");
+            //         }
+            //     }
+            //     // spaces
+            //     for(int j=1; j<=2*(n-i); j++) {
+            //         System.out.print(" ");
+            //     }
+            //     // secpond half
+            //     for(int j=1; j<=i; j++) {
+            //         if(j==1 || j==i) {
+            //             System.out.print("*");
+            //         } else {
+            //             System.out.print(" ");
+            //         }
+            //     }
+            //     System.out.println();
+            // }
+            // for(int i=n; i>=0; i--) {
+            //     // first halff
+            //     for(int j=1; j<=i; j++) {
+            //         if(j==1 || j==i) {
+            //             System.out.print("*");
+            //         } else {
+            //             System.out.print(" ");
+            //         }
+            //     }
+            //     // spaces
+            //     for(int j=1; j<=2*(n-i); j++) {
+            //         System.out.print(" ");
+            //     }
+            //     // second half
+            //     for(int j=1; j<=i; j++) {
+            //         if(j==1 || j==i) {
+            //             System.out.print("*");
+            //         } else {
+            //             System.out.print(" ");
+            //         }
+            //     }
+            //     System.out.println();
+            // }
+
+
+
 
         }
 }
